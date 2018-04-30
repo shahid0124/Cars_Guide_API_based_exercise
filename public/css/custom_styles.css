@@ -1,0 +1,33 @@
+.Image-frame
+{
+    box-shadow:4px 4px 4px 4px #eee;
+    width:300px;
+    height:300px;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -150px;
+    background: #eee;
+}
+
+.container-upper {
+
+    height:350px;
+
+}
+
+#upload-image-file,#upload-image-button
+{
+    margin-top:50px;
+    margin-left:40px;
+}
+#upload-image-button
+{
+    margin-top:10px;
+}
+
+#delete-image
+{
+    text-align: center;
+}
