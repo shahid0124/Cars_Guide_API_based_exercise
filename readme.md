@@ -3,10 +3,10 @@ with PHP artisan migrate ... It will create the respective tables in the databas
 
 ** Run Composer update. 
 
-** Update the .env with your database connectivity.
-
 ** Check for the .env file as its not part of commit .. create one and copy contents of .env.example.. Also create or update backend database
 **
+
+** Update the .env with your database connectivity and database name. I used CarsGuide (I included my setting in .env.example)
 
 ** secure the site if using valet with valet secure command .. if it throws php linking error update the version of php by issuing command brew install php
 
