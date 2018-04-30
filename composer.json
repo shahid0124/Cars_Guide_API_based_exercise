@@ -7,7 +7,7 @@
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
-        "laravel/framework": "5.4.30",
+        "laravel/framework": "5.4.40",
         "laravel/tinker": "~1.0",
         "tymon/jwt-auth": "1.0.0-rc.1"
     },
