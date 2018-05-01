@@ -97,6 +97,7 @@ class AuthController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
+
     public function login(Request $request)
     {
         $credentials = $request->only('email', 'password');
@@ -139,6 +140,7 @@ class AuthController extends Controller
      *
      * @param Request $request
      */
+
     public function logout(Request $request)
     {
         auth()->invalidate();
